@@ -50,6 +50,7 @@ if ($conn == false)
 ?> 
 
 ```
+![Gambar 5](ss5.png)
 
 ## Membuat file untuk menampikan data (Read)
 Buat file baru dengan nama index.php
@@ -113,7 +114,8 @@ $result = mysqli_query($conn, $sql);
 </body>
 </html>
 ```
-![Gambar 5](ss5.png)
+![Gambar 6](ss6.png)
+
 
 ## Menambah data (Create)
 Membuat file baru dengan nama tambah.php
@@ -199,7 +201,8 @@ if (isset($_POST['submit']))
 </html>
 
 ```
-![Gambar 6](ss6.png)
+![Gambar 7](ss7.png)
+
 
 ## Mengubah Data (Update)
 Buat File baru dengan nama ubah.php
@@ -302,7 +305,8 @@ function is_select($var, $val) {
 </body> 
 </html>
 ```
-![Gambar 7](ss7.png)
+![Gambar 8](ss8.png)
+
 
 ## Menghapus Data (delete)
 Membuat File baru dengan nama hapus.php
@@ -315,7 +319,7 @@ $result = mysqli_query($conn, $sql);
 header('location: indexx.php'); 
 ?> 
 ```
-![Gambar 8](ss8.png)
+![Gambar 9](ss9.png)
 
 
 
